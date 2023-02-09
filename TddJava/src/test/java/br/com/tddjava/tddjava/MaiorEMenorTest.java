@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+
 package br.com.tddjava.tddjava;
 
 import org.junit.jupiter.api.AfterEach;
@@ -55,6 +52,7 @@ public class MaiorEMenorTest {
         assertEquals("Geladeira", carrinho.produtos.get(0).getNome());
         assertEquals(450.0,carrinho.produtos.get(0).getValor());
     }
+       
 
     /**
      * Test of getMenor method, of class MaiorEMenor.

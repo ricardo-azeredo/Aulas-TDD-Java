@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.tddjava.tddjava.ProdutoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.066 s <<< FAILURE! - in br.com.tddjava.tddjava.ProdutoTest
-testGetNome  Time elapsed: 0.015 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <10> but was: <Celular>
-	at br.com.tddjava.tddjava.ProdutoTest.testGetNome(ProdutoTest.java:45)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in br.com.tddjava.tddjava.ProdutoTest
