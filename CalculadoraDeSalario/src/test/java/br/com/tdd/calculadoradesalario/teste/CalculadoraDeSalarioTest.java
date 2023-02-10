@@ -18,10 +18,10 @@ public class CalculadoraDeSalarioTest {
     @Test
     public void calculadorSalarioDesenvolvedorComSalarioAbaixoDoLimite(){
         CalculadoraDeSalario calculadora = new CalculadoraDeSalario();        
-        Funcionario desenvolvedor = new Funcionario("Ricardo", 1500.0, Cargo.Desenvolvedor);
+        Funcionario desenvolvedor = new Funcionario("Ricardo", 4000.0, Cargo.Desenvolvedor);
         
         double salario = calculadora.calculaSalario(desenvolvedor);
         
-        assertEquals(1500.0 * 0.9, salario, 0.00001);
+        assertEquals(4000.0 * 0.8, salario, 0.00001);
     }
 }
