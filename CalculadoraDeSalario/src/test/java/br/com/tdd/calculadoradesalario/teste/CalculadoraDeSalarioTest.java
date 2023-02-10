@@ -16,16 +16,16 @@ public class CalculadoraDeSalarioTest {
     public void calculadorSalarioDesenvolvedorComSalarioAbaixoDoLimite(){
         //Cenário
         CalculadoraDeSalario calculadora = new CalculadoraDeSalario();        
-        //Funcionario desenvolvedor = new Funcionario("Ricardo", 4000.0, Cargo.Desenvolvedor);
-        Funcionario dba = new Funcionario("Maria", 500.0, Cargo.DBA);
+        Funcionario desenvolvedor = new Funcionario("Ricardo", 4000.0, Cargo.Desenvolvedor);
+        //Funcionario dba = new Funcionario("Maria", 500.0, Cargo.DBA);
         
         //Ação
-        //double salario = calculadora.calculaSalario(desenvolvedor);
-        double salario = calculadora.calculaSalario(dba);
+        double salario = calculadora.calculaSalario(desenvolvedor);
+        //double salario = calculadora.calculaSalario(dba);
         
         
         //Validação
-        //assertEquals(4000.0 * 0.8, salario, 0.00001);
-        assertEquals(500.0 * 0.85, salario, 0.00001);
+        assertEquals(4000.0 * 0.8, salario, 0.00001);
+        //assertEquals(500.0 * 0.85, salario, 0.00001);
     }
 }
